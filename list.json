@@ -1,0 +1,48 @@
+{
+  "items": [{
+    "id": 1,
+    "img": "list-img1.jpg",
+    "linkname": "Shop Luggage",
+    "price": "1.99",
+    "stars": "&#9733;&#9733;&#9733;&#9733;&#9733;",
+    "attribution": "visualhunt",
+    "url": "#",
+    "color": "green"
+  }, {
+    "id": 2,
+    "img": "list-img2.jpg",
+    "linkname": "Shop Backpacks",
+    "attribution": "visualhunt",
+    "price": "0.99",
+    "stars": "&#9733;&#9733;&#9733;&#9733;&#9734;",
+    "url": "#",
+    "color": "orange"
+  }, {
+    "id": 3,
+    "img": "list-img3.jpg",
+    "linkname": "Shop Bags",
+    "attribution": "visualhunt",
+    "price": "1.50",
+    "stars": "&#9733;&#9733;&#9733;&#9734;&#9734;",
+    "url": "#",
+    "color": "green"
+  }, {
+    "id": 4,
+    "img": "list-img4.jpg",
+    "linkname": "Shop Accessories",
+    "attribution": "pixabay",
+    "price": "1.50",
+    "stars": "&#9733;&#9733;&#9733;&#9733;&#9733;",
+    "url": "#",
+    "color": "yellow"
+  }, {
+    "id": 5,
+    "img": "list-img5.jpg",
+    "linkname": "Shop Sale",
+    "attribution": "pixabay",
+    "price": "4.50",
+    "stars": "&#9733;&#9733;&#9733;&#9733;&#9733;",
+    "url": "#",
+    "color": "red"
+  }]
+}

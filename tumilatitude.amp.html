@@ -1,0 +1,313 @@
+<!--
+ Copyright 2016 Google Inc.
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+      http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<!doctype html>
+<html ⚡ lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <link rel="canonical" href="/article.html">
+    <link rel="shortcut icon" href="amp_favicon.png">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+
+    <title>News Article</title>
+
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
+    <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+    <script async custom-element="amp-iframe"   src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+      p{
+        margin: 0;
+      }
+
+      h2,h3{
+        width: 100%;
+        text-align: center;
+      }
+      #mid-section, #bottom-section{
+        padding-top: 20px;
+      }
+      #iframectnr{
+        position: absolute;
+        top: 600px;
+      }
+
+      #top-section .link div{
+        width: 100%;
+        border: 2px solid #000;
+        padding: 15px 5px;
+        white-space: nowrap;
+      }
+
+      #top-section .fixedblock{
+        text-align: center;
+        padding: 10px;
+      }
+
+      #mid-section h3{
+        height: 50px;
+        text-align: center;
+        background: #eaeaea;
+
+        line-height: 47px;
+      }
+
+
+      #mid-section .items{
+        display: block;
+        height: 100px;
+        padding-left: 10px;
+        
+        background: #fff;
+        border-radius: 2px;
+        border-bottom: 1px solid #eaeaea;
+        position: relative;
+
+
+        clear: both;
+      }
+
+      #mid-section .items amp-img{ 
+        float: left;
+        margin-right: 16px;
+      }
+
+      #mid-section .items .item-img{
+        width: 30%;
+        float: left;
+      }
+
+      #mid-section .items .item-link{
+        width: 70%;
+        float: left;
+      }
+
+      #bottom-section h2{
+        border-bottom: 2px solid #eaeaea;
+
+        padding-bottom: 5px;
+      }
+
+      figure{
+        position: relative;
+        margin: 0;
+        width: 30%;
+      }
+
+      figure .overlay{
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: .03;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      figcaption .title,figcaption .name{
+        display: block;
+
+        text-align: center;
+        font-size: 11px;
+      }
+
+      figcaption .title{
+        text-transform: uppercase;
+      }
+      
+      .arrow{
+        background: url("http://i1.adis.ws/i/tumi/Arrow_1") no-repeat;
+        width: 7px;
+        height: 12px;
+        display: block;
+        position: absolute;
+
+        top: 45%;
+        left: 76%;
+        transform: translate(-50%,-50%);
+      }
+
+      .link{
+        color: #000;
+        font-family: Proxima Nova,proxima-nova,Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: .02em;
+        padding: 13px 0;
+        line-height: 67px;
+        margin: 20px auto 0 auto;
+        display: block;
+        width: 225px;
+        text-align: center;
+        text-decoration: none;
+
+        white-space: nowrap;
+
+      }
+
+
+    </style>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+  </head>
+  <body>
+    <header>
+      <amp-img width="300" height="30" layout="responsive" src="header.png"
+               srcset="header.png 640w,
+                      header-moible.png 320w"
+      ></amp-img>  
+    </header>
+
+
+    <section id="top-section">   
+      
+       <amp-img src="https://i1.adis.ws/i/tumi/03.26.18_Latitude_HP_Hero_2000x780" width="320" height="168" layout="responsive"></amp-img>
+       <amp-img src="latitude-logo.jpg" width="320" height="80" layout="responsive"></amp-img>
+
+       <div class="fixedblock">
+         <amp-fit-text width="300" height="80" layout="responsive">
+              Our most durable lightweight hardside
+              luggage collection is designed to take
+              you anywhere—even on a journey across a single degree of latitude.
+         </amp-fit-text>
+         <a href="http://www.tumi.com" class="link"><div>Expore the Collection</div></a>
+       </div>
+    </section>
+
+    <section id="mid-section">
+       <h3>Shop By Category</h3>
+       <amp-list id="amp-list-placeholder"
+          noloading
+          width="auto"
+          height="600"
+          layout="fixed-height"
+          src="list.json?delay=1">
+          <div placeholder>
+            <ul class="results">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <template type="amp-mustache">
+            <div class="items">
+              <!--div class="item-img"-->
+                <amp-img width="120"
+                  height="85"
+                  alt="{{link}}"
+                  src="{{img}}"></amp-img>
+              <!--/div-->
+
+              <!--div class="item-link"-->
+                <p class="link-name">
+                  <a href="https://www.tumi.com" class="link">{{linkname}}</a>
+                  <span class="arrow"></span>
+                </p>
+              <!--/div-->
+
+            </div>
+          </template>
+
+       </amp-list>
+    </section>
+
+    <section id="bottom-section">
+      <header><h2>Recommendation for You</h2></header>
+      <amp-carousel height="330"
+        layout="fixed-height"
+        type="carousel">
+        <figure>
+          <amp-img src="https://tumi.scene7.com/is/image/Tumi/287660D_main_T?wid=330&layer=2&opac=0&layer=3&opac=0&qlt=65"
+            width="130"
+            height="140"
+            alt="a sample image"></amp-img>
+          <figcaption>
+              <span class="title">ALPHA</span>
+              <span class="name">
+                International Carry-On
+              </span>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <amp-img src="https://tumi.scene7.com/is/image/Tumi/119274DID_main?wid=330&layer=2&opac=0&layer=3&opac=0&qlt=65"
+            width="130"
+            height="140"
+            alt="another sample image"></amp-img>
+          <figcaption>
+                <span class="title">ALPHA2</span>
+                <span class="name">
+                  International Carry-On
+                </span>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <amp-img src="https://tumi.scene7.com/is/image/Tumi/1035176618_main?wid=330&layer=2&opac=0&layer=3&opac=0&qlt=65 "
+            width="130"
+            height="140"
+            alt="and another sample image"></amp-img>
+          <figcaption>
+                <span class="title">ALPHA</span>
+                <span class="name">
+                  International Carry-On
+                </span>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <amp-img src="https://tumi.scene7.com/is/image/Tumi/287660D_main_T?wid=330&layer=2&opac=0&layer=3&opac=0&qlt=65"
+            width="130"
+            height="140"
+            alt="and another sample image"></amp-img>
+          <figcaption>
+                <span class="title">ALPHA</span>
+                <span class="name">
+                  International Carry-On
+                </span>
+          </figcaption>
+        </figure>
+
+        <figure>
+          <amp-img src="https://tumi.scene7.com/is/image/Tumi/96578D2_main_T?wid=330&layer=2&opac=0&layer=3&opac=0&qlt=65"
+            width="130"
+            height="140"
+            alt="and another sample image"></amp-img>
+          <figcaption>
+                <span class="title">ALPHA2</span>
+                <span class="name">
+                  International Carry-On
+                </span>
+          </figcaption>
+        </figure>
+
+      </amp-carousel>
+
+    </section>
+
+
+  </body>
+</html>
